@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "https://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>CFBundleIdentifier</key>
+  <string>org.logic-mix-listener.capture</string>
+  <key>NSAudioCaptureUsageDescription</key>
+  <string>Mix Listener records a stereo passage from the requested app for local comparison.</string>
+</dict>
+</plist>
