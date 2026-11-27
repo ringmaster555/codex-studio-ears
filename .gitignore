@@ -1,0 +1,17 @@
+.venv/
+.model/
+build/
+Sessions/
+__pycache__/
+.DS_Store
+*.py[cod]
+*.wav
+*.aif
+*.aiff
+*.caf
+*.flac
+*.mp3
+*.m4a
+*.logicx
+*.pt
+*.safetensors
