@@ -1,6 +1,16 @@
 # Studio Ears for Codex
 
-**Give Codex a way to analyze the DAW audio you’re hearing.** Studio Ears captures a stereo passage from your DAW and measures what changes between takes. Logic Pro is the default for live capture. You can also compare stereo bounces from any DAW.
+**Tell Codex how you want your mix to sound.** Studio Ears lets Codex capture the stereo DAW audio you’re monitoring, suggest a mix adjustment, and help you judge the next take. Logic Pro is the default for live capture. You can also compare stereo bounces from any DAW.
+
+## Describe the sound you want
+
+Start with the result you want to hear. Codex can turn that direction into a specific move to try in your DAW and tell you what to listen for. Apply one change, capture or bounce the same passage again, and ask Codex what changed. Use the measurements and your own notes from level-matched playback to decide what to try next.
+
+- **“Make the cymbals less harsh.”** Try dynamic EQ on the cymbal or overhead bus. Listen for smoother loud hits while the kit keeps its shimmer.
+- **“Give the mix more glue.”** Try light mix-bus compression. Listen for the instruments sitting together while the drum attacks still come through.
+- **“Give the guitars more punch on the attack.”** Try easing up on fast compression. Compare the pick attack on a guitar-only pass, then check how it cuts through the full mix.
+
+Codex can point to changes such as reduced presence-band energy or higher peaks relative to the average level. Soloed passes or stems help isolate the instrument, and your playback check tells you whether the change serves the mix.
 
 ## How Codex gets the audio
 
@@ -73,7 +83,7 @@ Copy the [AGENTS.md example](examples/AGENTS.md) into your project or add it to 
 
 Example request
 
-> Compare these two bounces of the same chorus. Report Sony similarity and signal measurements separately. Focus on changes in the low end and stereo width.
+> The cymbals feel harsh in the chorus. Suggest one change I can try in Logic. After I bounce the same chorus again, compare both takes and tell me what to listen for. Report Sony similarity separately from the signal measurements.
 
 ## Verify and troubleshoot
 
