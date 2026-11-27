@@ -1,10 +1,12 @@
 # Studio Ears for Codex
 
-**Tell Codex how you want your mix to sound.** Studio Ears lets Codex capture the stereo DAW audio you’re monitoring, suggest a mix adjustment, and help you judge the next take. Logic Pro is the default for live capture. You can also compare stereo bounces from any DAW.
+**Tell Codex how you want your mix to sound.** Studio Ears captures and compares the DAW audio you’re monitoring so Codex can help you evaluate each edit. Logic Pro is the default for live capture. You can also compare bounces from any DAW.
 
 ## Describe the sound you want
 
-Start with the result you want to hear. Codex can turn that direction into a specific move to try in your DAW and tell you what to listen for. Apply one change, capture or bounce the same passage again, and ask Codex what changed. Use the measurements and your own notes from level-matched playback to decide what to try next.
+Start with the result you want to hear. Codex can turn that direction into a specific edit and tell you what to listen for. If Codex has access to the relevant DAW controls through a separate tool, it can apply the edit for you. You can also make the edit yourself with Codex’s guidance.
+
+Studio Ears supplies the capture and comparison for either workflow. Capture or bounce the same passage before and after the edit. Codex uses the comparison report and your notes from level-matched playback to evaluate the result and help you decide what to change next.
 
 - **“Make the cymbals less harsh.”** Try dynamic EQ on the cymbal or overhead bus. Listen for smoother loud hits while the kit keeps its shimmer.
 - **“Give the mix more glue.”** Try light mix-bus compression. Listen for the instruments sitting together while the drum attacks still come through.
@@ -83,7 +85,7 @@ Copy the [AGENTS.md example](examples/AGENTS.md) into your project or add it to 
 
 Example request
 
-> The cymbals feel harsh in the chorus. Suggest one change I can try in Logic. After I bounce the same chorus again, compare both takes and tell me what to listen for. Report Sony similarity separately from the signal measurements.
+> Make the cymbals less harsh in the chorus. If you can reach the relevant controls in Logic, apply one edit. If you need me to make the edit, tell me what to adjust. Then compare the same chorus before and after and tell me what to listen for. Report Sony similarity separately from the signal measurements.
 
 ## Verify and troubleshoot
 
